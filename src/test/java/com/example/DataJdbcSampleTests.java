@@ -32,6 +32,6 @@ public class DataJdbcSampleTests {
 		List<Map<String, Object>> employees = jdbcTemplate
 				.queryForList("select id, name from employee");
 		assertThat(employees).hasSize(1);
-		// Some smart assertions
+		// TODO: add some smart assertions here
 	}
 }
